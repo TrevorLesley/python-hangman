@@ -1,6 +1,6 @@
 import random
 
-words = ["coding", "python"]
+words = ["coding", "python", "reverse", "geeks"]
 
 
 word = random.choice(words)
@@ -41,7 +41,7 @@ while turns > 0:
 
         turns -= 1
 
-        print(f"Incorrect, {guess} is not in the word.")
+        print("Wrong")
 
         print("You have", +turns, "more guesses")
 
